@@ -11,6 +11,13 @@ fn aoc(day: u64, part: u64, filename: String) {
                 solutions::day1::solve_part2(filename);
             }
         }
+        2 => {
+            if part == 1 {
+                solutions::day2::solve_part1(filename);
+            } else if part == 2 {
+                solutions::day2::solve_part2(filename);
+            }
+        }
         _ => {}
     }
 }
