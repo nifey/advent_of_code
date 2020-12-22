@@ -97,6 +97,7 @@ fn aoc(day: u64, part: u64, filename: String) {
         19 => solutions::day19::solve(part, filename),
         20 => solutions::day20::solve(part, filename),
         21 => solutions::day21::solve(part, filename),
+        22 => solutions::day22::solve(part, filename),
         _ => {}
     }
 }
