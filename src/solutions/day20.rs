@@ -111,6 +111,7 @@ fn solve_part1(dimension: usize, tiles: Vec<Tile>) {
     println!("{}", corners.iter().map(|&x| tiles[x].id).product::<u64>());
 }
 
+/*
 fn orient(
     tile: &Tile,
     left: Option<u16>,
@@ -306,9 +307,12 @@ fn orient(
         }
     }
 }
+*/
 
 fn solve_part2(dimension: usize, tiles: Vec<Tile>) {
+    /*
     // Jigsaw puzzle
+    //
     let mut edge_map: HashMap<u16, Vec<usize>> = HashMap::new();
     for (index, tile) in tiles.iter().enumerate() {
         for edge in &tile.edges {
@@ -356,4 +360,5 @@ fn solve_part2(dimension: usize, tiles: Vec<Tile>) {
     let mut rotation = vec![0; tiles.len()];
 
     println!("{}", corners.iter().map(|&x| tiles[x].id).product::<u64>());
+    */
 }
